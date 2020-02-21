@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    android:gravity="center"
+    android:id="@+id/sessionForm"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/titles"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="COMMITTED"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Sport:"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_txt"
+        android:popupBackground="#174B70"
+        android:paddingLeft="5dp"
+        android:prompt="@string/spinner_title"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="284dp"
+        android:layout_height="248dp"
+        android:layout_below="@+id/sub"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/card" />
+
+</LinearLayout>
